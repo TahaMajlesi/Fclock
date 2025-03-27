@@ -9,7 +9,49 @@
 </head>
 
 <body>
+    <div class="w-full h-screen max-h-screen bg-gray-950 flex-col flex justify-around font-sans">
+        <div class="flex w-6/12 mx-auto justify-around">
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Year"></p>
+                <p class="text-white w-full text-end text-2xl tracking-widest">Year</p>
+            </div>
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Month"></p>
+                <p class="text-white w-full text-end text-2xl tracking-widest">Month</p>
+            </div>
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Day"></p>
+                <p class="text-white w-full text-end text-2xl tracking-widest">Day</p>
+            </div>
+        </div>
+        <div class="flex w-6/12 mx-auto justify-around">
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Hours"></p>
+                <p class="text-white w-full text-end text-2xl tracking-widest">Hours</p>
+            </div>
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Minutes">
+                <p>
+                <p class="text-white w-full text-end text-2xl tracking-widest">Minutes</p>
+            </div>
+            <div class="flex flex-col border-b-2 border-white w-3/12">
+                <p class="text-white w-full tracking-widest text-6xl" id="Seconds"></p>
+                <p class=" text-white w-full text-end text-2xl tracking-widest ">Seconds</p>
+            </div>
+        </div>
+        <p class=" text-white mx-auto text-xl tracking-widest">[
+            <span id="Date" class="text-amber-300"></span> -
+            <span id="Time" class="text-amber-300"></span> -
+            <span id="Today" class="text-amber-300"></span> ]
+        </p>
 
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/GetData.js"></script>
 </body>
+
+
 
 </html>
